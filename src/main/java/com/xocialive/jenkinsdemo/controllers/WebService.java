@@ -10,5 +10,10 @@ public class WebService {
 	public String sayHello() {
 		return "hello";
 	}
+	
+	@GetMapping("/sayName")
+	public String sayName() {
+		return "hello from xoc";
+	}
 
 }
